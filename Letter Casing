@@ -1,0 +1,9 @@
+//The following program asks the user to enter their name and changes the name to start with an uppercase letter followed with lowercase letters.
+
+var name = prompt("What is your name?");
+var firstLetterOfName = name.slice(0,1);
+var firstLetterOfNameToUpper = firstLetterOfName.toUpperCase();
+var restOfTheName = name.slice(1, name.length);
+var restOfNameToLowerCase = restOfTheName.toLowerCase();
+var fullName = (firstLetterOfNameToUpper + restOfNameToLowerCase);
+alert("Hello, " + fullName + "!");
