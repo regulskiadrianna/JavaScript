@@ -1,0 +1,5 @@
+//The following program counts the number of characters entered. The limit of characters is 250. 
+
+var myResponse = prompt("Please enter your response: ");
+var myRemainder = 250 - myResponse.length;
+alert ("You have used " + myResponse.length + "characters. You have " + myRemainder +" characters left." );
