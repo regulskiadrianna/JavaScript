@@ -1,0 +1,7 @@
+//The following program asks the user for their weight(kg) and height(m^2) and calculates the BMI. 
+
+function bmiCalculator(weight, height){
+return Math.round(weight / (height * height));
+}
+
+bmiCalculator(50, 1.6);
