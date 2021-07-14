@@ -1,0 +1,11 @@
+//The following program asks the user for the current age and calculates how many days, weeks, and months are left until the user turns 90. 
+
+var currentAge = prompt("Please enter your current age: ");
+var daysInAYear = 365
+var weeksInAYear = 52;
+var monthsInAYear = 12;
+var x = (90 - currentAge) * daysInAYear;
+var y = (90 - currentAge) * weeksInAYear;
+var z = (90 - currentAge) * monthsInAYear;
+alert("If you are " + currentAge + " years old, you have " + x + " days, "
+ + y + " weeks, and " + z + " months left until you are 90 years old."); 
