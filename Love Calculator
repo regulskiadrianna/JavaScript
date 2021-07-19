@@ -1,0 +1,8 @@
+//The following program calculates the love percentage of two people. 
+
+var firstPerson = prompt ("Please enter the name of the first person: ");
+var secondPerson = prompt ("Please enter the name of the second person: ");
+var percentage = Math.random();
+percentage = percentage * 100;
+percentage = Math.floor(percentage)+1;
+alert("The love percentage for " + firstPerson + " and " + secondPerson + " is " + percentage +"%");
