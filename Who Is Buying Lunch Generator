@@ -1,0 +1,9 @@
+//The following program picks a random person from the array to buy lunch. 
+
+function whosPaying(names) {
+var names = ["Kaylee", "Bob", "John", "Mike", "Sarah"];
+var randomPerson = names[Math.floor(Math.random()*names.length)]
+return randomPerson + " is going to buy lunch today!"
+}
+
+whosPaying();
