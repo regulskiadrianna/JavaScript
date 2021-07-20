@@ -1,0 +1,15 @@
+//The following code checks for a leap year by inserting a year into a function.
+
+isLeap(2020);
+isLeap(2021);
+
+function isLeap(year) {
+if (year % 4 !==0 || year % 100 === 0 && year % 400 !== 0) {
+    console.log("Not leap year.");
+} else {
+    console.log("Leap year.");
+}
+}
+
+
+
