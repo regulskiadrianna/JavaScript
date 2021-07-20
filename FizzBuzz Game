@@ -1,0 +1,39 @@
+ //The following program inserts elements in order into an array starting with 1. Whenever a number is divisible by 3 it displays "Fizz",
+// and when it is divisible by 5 it displays "Buzz." When the number is divisible by 3 and 5 it displays "FizzBuzz."
+
+var output = [];
+var count = 1;
+
+function fizzBuzz(){
+    if(count % 3 === 0 && count % 5 === 0){
+            output.push("FizzBuzz");
+        } else if(count % 3 === 0){
+        output.push("Fizz");
+        } else if(count % 5 === 0){
+            output.push("Buzz");
+        }
+
+     else{
+        output.push(count);
+    }
+    count++;
+    console.log(output);
+}
+   
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
+fizzBuzz();
