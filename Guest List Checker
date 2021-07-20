@@ -1,0 +1,10 @@
+//The following program uses an array to check if a guest is on a list.
+
+var guestList = ["Sydney", "Jake", "Monica", "Thomas", "Adam"];
+var guestName = prompt("Please enter your name: ");
+if (guestList.includes(guestName)){
+    alert("Welcome!");
+}else{
+    alert("Sorry, you are not on the list. ")
+}
+
