@@ -1,0 +1,10 @@
+//The program creates a constructor function to store information about a student which can later be assigned to each student separately.
+
+function Student (firstName, lastName, gradeLevel){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.gradeLevel = gradeLevel;
+}
+
+var student1 = new Student ("Michael", "Blake", "Senior");
+var student2 = new Student ("Koby", "Johnson", "Freshman");
