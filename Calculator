@@ -1,0 +1,26 @@
+//The following program is a calculator that takes in two numbers and calculates the total based on the operator picked.
+
+function add(number1, number2){
+    return number1 + number2;
+}
+
+function subtract(number1, number2){
+    return number1 - number2;
+}
+
+function multiply(number1, number2){
+    return number1 * number2;
+}
+
+function divide(number1, number2){
+    return number1 / number2;
+}
+
+function calculator (number1, number2, operator){
+    return operator (number1, number2);
+}
+
+calculator(5, 5, add);
+calculator(5,5, subtract);
+calculator(5, 5, multiply);
+calculator(5, 5, divide);
